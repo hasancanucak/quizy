@@ -1,12 +1,11 @@
-# IUCTF
+# QUIZY
 
-A ctf platform for everyone.
+A quiz platform for everyone.
 
 ## Why We did this ?
 
 Because
 
-* We wanted to do something about cyber security.
 * We wanted something with codeigniter 4 (Because codeigniter 4 awesome)
 * Just for fun :)
 
@@ -25,8 +24,8 @@ If you don't like or hate
 First steps:
 
 ```
-$ git clone https://gitlab.com/iucyber/iuctf.git
-$ cd iuctf
+$ git clone https://github.com/hasancanucak/quizy
+$ cd quizy
 $ composer install
 ```
 
