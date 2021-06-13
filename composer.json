@@ -1,8 +1,8 @@
 {
-	"name": "iucyber/iuctf",
+	"name": "hasancanucak/quizy",
 	"type": "project",
-	"description": "A ctf platform for everyone.",
-	"homepage": "https://gitlab.com/iucyber/iuctf",
+	"description": "A quiz platform for everyone.",
+	"homepage": "https://github.com/hasancanucak/quizy",
 	"license": "MIT",
 	"require": {
 		"php": ">=7.2",
@@ -34,6 +34,6 @@
 		"test": "phpunit"
 	},
 	"support": {
-		"source": "https://gitlab.com/iucyber/iuctf"
+		"source": "https://github.com/hasancanucak/quizy"
 	}
 }
