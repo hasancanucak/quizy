@@ -9,7 +9,7 @@ class InstallSeeder extends \CodeIgniter\Database\Seeder
 		$builder->insertBatch([
 			[
 				'key'   => 'ctf_name',
-				'value' => 'IUCTF',
+				'value' => 'QUIZY',
 			],
 			[
 				'key'   => 'ctf_logo',

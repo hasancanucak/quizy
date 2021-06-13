@@ -5,7 +5,7 @@ return [
 	'general'     => 'General',
 	'timer'       => 'Timer',
 	'data'        => 'Data',
-	'ctfName'     => 'CTF Name',
+	'ctfName'     => 'Cite Name',
 	'memberLimit' => 'Member Limit',
 	'theme'       => 'Theme',
 	'default'     => 'Default',
@@ -13,12 +13,12 @@ return [
 	'updatedSuccessfully' => 'Settings updated successfully',
 
 	// general settings
-	'ctfNameTitle'         => 'CTF Name',
-	'ctfNameDesc'          => 'The name of the Competition. Or the name of the "CTF".',
+	'ctfNameTitle'         => 'Cite Name',
+	'ctfNameDesc'          => 'The name of the Competition. Or the name of the cite.',
 	'teamMemberLimitTitle' => 'Team Member Limit',
 	'teamMemberLimitDesc'  => 'Max team member.',
 	'themeTitle'           => 'Theme',
-	'themeDesc'            => 'The theme of the CTF',
+	'themeDesc'            => 'The theme of the cite',
 	'allowRegister'        => 'Allow Register',
 	'disallowRegister'     => 'Dissallow Register',
 	'allowRegisterTitle'   => 'Allow Register',
@@ -32,9 +32,9 @@ return [
 	'regenHashSecretKey'   => 'Regenerate Hash Secret Key',
 
 	// timer settings
-	'ctfTimer'             => 'CTF Timer',
+	'ctfTimer'             => 'Question Timer',
 	'timerTitle'           => 'Timer',
-	'timerDesc'            => 'Configure CTF timer',
+	'timerDesc'            => 'Configure question timer',
 	'startTime'            => 'Start Time',
 	'endTime'              => 'End Time',
 
@@ -60,7 +60,7 @@ return [
 	'deleteError'          => 'File delete error happen',
 	'reseted'              => 'Reset successfull',
 	'resetConfirm'         => 'Are you sure you want to procedure. THIS ACTION IS NOT IRREVERSIBLE !!!',
-	'confirmCheckbox'      => 'I am sure I want to reset the IUCTF',
+	'confirmCheckbox'      => 'I am sure I want to reset the QUIZY',
 	'resetWarningTitle'    => 'This action is <b>NOT irrevertible</b>. Do not make mistake.',
 	'resetWarningList' => [
 		'All categories, challenges flags hints will be deleted',

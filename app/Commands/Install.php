@@ -7,10 +7,10 @@ use CodeIgniter\Config\Services;
 
 class Install extends BaseCommand
 {
-	protected $group       = 'Iuctf';
-	protected $name        = 'iuctf:install';
-	protected $description = 'Install iuctf from command line.';
-	protected $usage       = "iuctf:install";
+	protected $group       = 'Quizy';
+	protected $name        = 'quizy:install';
+	protected $description = 'Install quizy from command line.';
+	protected $usage       = "quizy:install";
 
 	public function run(array $params)
 	{
@@ -20,7 +20,7 @@ class Install extends BaseCommand
 		// if settings table exist, platform already installed
 		if ($db->tableExists('settings'))
 		{
-			CLI::write('IUCTF already installed. Please go to admin panel', 'yellow');
+			CLI::write('QUIZY already installed. Please go to admin panel', 'yellow');
 			exit(0);
 		}
 
@@ -87,7 +87,7 @@ class Install extends BaseCommand
 			exit(1);
 		}
 
-		CLI::write('IUCTF installed successfully!', 'light_green');
+		CLI::write('QUIZY installed successfully!', 'light_green');
 		CLI::write('Please go to the admin panel', 'light_green');
 	}
 }

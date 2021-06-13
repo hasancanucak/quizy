@@ -88,7 +88,7 @@ class ChallengeController extends UserController
 
 	public function challenge($id = null)
 	{
-		helper('iuctf');
+		helper('quizy');
 
 		if (! $challenge = cache("challenge-{$id}"))
 		{

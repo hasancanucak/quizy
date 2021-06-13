@@ -94,7 +94,7 @@ class TeamController extends AdminController
 			'leader_id' => $leader->id,
 			'name'      => $this->request->getPost('name'),
 			'is_banned' => '0',
-			'auth_code' => bin2hex(random_bytes(config('Iuctf')->authCodeSize)),
+			'auth_code' => bin2hex(random_bytes(config('Quizy')->authCodeSize)),
 		];
 
 		try
@@ -176,7 +176,7 @@ class TeamController extends AdminController
 	public function changeAuthCode($id = null)
 	{
 		$data = [
-			'auth_code' => bin2hex(random_bytes(config('Iuctf')->authCodeSize)),
+			'auth_code' => bin2hex(random_bytes(config('Quizy')->authCodeSize)),
 		];
 
 		$result = $this->teamModel->update($id, $data);

@@ -7,10 +7,10 @@ use \App\Models\UserModel;
 
 class MakeAdmin extends BaseCommand
 {
-	protected $group       = 'Iuctf';
-	protected $name        = 'iuctf:makeadmin';
+	protected $group       = 'Quizy';
+	protected $name        = 'quizy:makeadmin';
 	protected $description = 'Make a user an admin';
-	protected $usage     = "iuctf:makeadmin [USERNAME | EMAIL]";
+	protected $usage     = "quizy:makeadmin [USERNAME | EMAIL]";
 	protected $arguments = [
 		'username'		=> 'Username of the user',
 		'email'			=> 'Email of the user',

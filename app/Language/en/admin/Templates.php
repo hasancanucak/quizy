@@ -17,5 +17,5 @@ return [
 	'settings'			=> 'Settings',
 
 	// footer
-	'copyright'			=> 'Copyright © IUCYBER 2019',
+	'copyright'			=> 'Copyright © hasancanucak 2019',
 ];

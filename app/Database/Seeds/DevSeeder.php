@@ -50,36 +50,7 @@ class DevSeeder extends \CodeIgniter\Database\Seeder
 		$builder = $this->db->table('users');
 		// passwords same as username
 		$builder->insertBatch([
-			[
-				'id'               => '2',
-				'team_id'          => '1',
-				'email'            => 'hatsat32@mail.com',
-				'username'         => 'hatsat32',
-				'name'             => 'Süleyman ERGEN',
-				'password_hash'    => '$argon2i$v=19$m=65536,t=4,p=1$akR0dXhYNjB3dHJicnlBbw$bxWdYBKERyZbqywrJcjIikHnpT88Mab7X1ffwyaVN6I',
-				'active'           => '1',
-				'force_pass_reset' => '0',
-			],
-			[
-				'id'               => '3',
-				'team_id'          => '1',
-				'email'            => 'mnykmct@mail.com',
-				'username'         => 'mnykmct',
-				'name'             => 'Hüseyin Altunkaynak',
-				'password_hash'    => '$argon2i$v=19$m=65536,t=4,p=1$bXpuWXV5UldUYmw0TXFTQQ$3JQji05zyLXmG1kC5+jH6KCV8aJfclIJduTz5f4ajWc',
-				'active'           => '1',
-				'force_pass_reset' => '0',
-			],
-			[
-				'id'               => '4',
-				'team_id'          => '2',
-				'email'            => 'talha@mail.com',
-				'username'         => 'talha',
-				'name'             => 'Talha',
-				'password_hash'    => '$argon2i$v=19$m=65536,t=4,p=1$blViTDZ0UDhHbE8xcGxCeA$JNHIW3REz6cNtXFUa2kFBizT0P4k2qLJh6N43pwiFu0',
-				'active'           => '1',
-				'force_pass_reset' => '0',
-			],
+			
 			[
 				'id'               => '5',
 				'team_id'          => '3',

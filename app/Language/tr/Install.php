@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'installationManager'      => 'IUCTF Kurulum Yöneticisi',
+	'installationManager'      => 'QUIZY Kurulum Yöneticisi',
 	'welcomeTitle'             => 'Kurulum Yöneticisine Hoşgeldiniz.',
 	'welcomeWizard'            => 'Bu sihirbaz, kurulumu yapmanıza yardım edecek.',
 

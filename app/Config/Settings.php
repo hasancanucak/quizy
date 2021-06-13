@@ -18,27 +18,27 @@ class Settings extends BaseConfig
 	}
 
 	/**
-	 * Name of CTF
+	 * Name of cite
 	 */
-	public $ctf_name = "IUCTF";
+	public $ctf_name = "QUIZY";
 
 	/**
-	 * CTF logo
+	 * cite logo
 	 */
 	public $ctf_logo = null;
 
 	/**
-	 * CTF home page view
+	 * cite home page view
 	 */
 	public $home_page = null;
 
 	/**
-	 * CTF theme
+	 * cite theme
 	 */
 	public $theme = "default";
 
 	/**
-	 * Ctf timer settings
+	 * fite timer settings
 	 */
 	public $ctf_timer = "off";
 	public $ctf_start_time = null;
@@ -50,9 +50,9 @@ class Settings extends BaseConfig
 	public $allow_register = "allow";
 
 	/**
-	 * Some Ctf's needs to hash flags.
+	 * Some question's needs to hash flags.
 	 * If this settings is true no unhashed flags approwed
-	 * Iuctf uses sha256 hash algorithm
+	 * Quizy uses sha256 hash algorithm
 	 */
 	public $need_hash = false;
 

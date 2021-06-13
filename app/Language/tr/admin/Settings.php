@@ -5,7 +5,7 @@ return [
 	'general'     => 'Genel',
 	'timer'       => 'Zamanlayıcı',
 	'data'        => 'Veri',
-	'ctfName'     => 'CTF İsmi',
+	'ctfName'     => 'Site İsmi',
 	'memberLimit' => 'Takım Üye Limiti',
 	'theme'       => 'Tema',
 	'default'     => 'Default',
@@ -13,12 +13,12 @@ return [
 	'updatedSuccessfully' => 'Ayarlar başarıyla güncellendi',
 
 	// general settings
-	'ctfNameTitle'         => 'CTF ismi',
-	'ctfNameDesc'          => 'Yarışmanın ismi. Yada "CTF" nin ismi.',
+	'ctfNameTitle'         => 'Site ismi',
+	'ctfNameDesc'          => 'Yarışmanın ismi. Yada site nin ismi.',
 	'teamMemberLimitTitle' => 'Takım Üye limiti',
 	'teamMemberLimitDesc'  => 'Maximum takim üyesi sayısı.',
 	'themeTitle'           => 'Tema',
-	'themeDesc'            => 'CTF platformunun teması',
+	'themeDesc'            => 'Sitenin teması',
 	'allowRegister'        => 'Yeni üye kaydına izin ver.',
 	'disallowRegister'     => 'Yeni üye kaydına izin verme.',
 	'allowRegisterTitle'   => 'Yeni Üye Kaydı',
@@ -32,9 +32,9 @@ return [
 	'regenHashSecretKey'   => 'Gizli Kodu Tekrar Oluştur',
 
 	// timer settings
-	'ctfTimer'             => 'CTF Zamanlayıcı',
+	'ctfTimer'             => 'Soru Zamanlayıcı',
 	'timerTitle'           => 'Zamanlayıcı',
-	'timerDesc'            => 'CTF Zamanlayıcıyı Ayarla',
+	'timerDesc'            => 'Soru Zamanlayıcıyı Ayarla',
 	'startTime'            => 'Başlama Zamanı',
 	'endTime'              => 'Bitiş Zamanı',
 
@@ -60,7 +60,7 @@ return [
 	'deleteError'          => 'Dosya silerken bir hata oldu',
 	'reseted'              => 'Başarıyla sıfırlandı',
 	'resetConfirm'         => 'Devam etmek istediğinden eminmisin. BU İŞLEM GERİ ALINAMAZ !!!',
-	'confirmCheckbox'      => 'Iuctf\'i sıfırlamak istediğime eminim.',
+	'confirmCheckbox'      => 'Quizy\'i sıfırlamak istediğime eminim.',
 	'resetWarningTitle'    => 'Bu işlem <b>geri alınamaz</b>. Lütfen hata yapmayın.',
 	'resetWarningList' => [
 		'Bütün kategoriler, sorular, bayraklar, ipuçları SİLİNECEK',

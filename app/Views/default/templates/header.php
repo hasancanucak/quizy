@@ -54,7 +54,7 @@
 							<label class="input-group-text" for="language"><?= lang('General.language') ?></label>
 						</div>
 						<select class="custom-select" id="language" name="language">
-							<?php foreach(config('Iuctf')->locales as $lang => $language): ?>
+							<?php foreach(config('Quizy')->locales as $lang => $language): ?>
 								<option <?= session('language')==$lang ? 'selected':'' ?> value="<?= $lang ?>"><?= $language ?></option>
 							<?php endforeach ?>
 						</select>

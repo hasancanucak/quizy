@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'installationManager'      => 'IUCTF Installation Manager',
+	'installationManager'      => 'QUIZY Installation Manager',
 	'welcomeTitle'             => 'Welcome to the Install Manager',
 	'welcomeWizard'            => 'This wizard helps you to install the platform',
 

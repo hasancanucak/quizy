@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-	<a class="navbar-brand mr-1" href="/admin">IUCTF</a>
+	<a class="navbar-brand mr-1" href="/admin">QUIZY</a>
 
 	<button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
 		<i class="fas fa-bars"></i>
@@ -15,7 +15,7 @@
 				<label class="input-group-text" for="language"><?= lang('General.language') ?></label>
 			</div>
 			<select class="custom-select" id="language" name="language">
-				<?php foreach(config('Iuctf')->locales as $lang => $language): ?>
+				<?php foreach(config('Quizy')->locales as $lang => $language): ?>
 					<option <?= session('language')==$lang ? 'selected':'' ?> value="<?= $lang ?>"><?= $language ?></option>
 				<?php endforeach ?>
 			</select>

@@ -2,12 +2,12 @@
 
 use CodeIgniter\Config\BaseConfig;
 
-class Iuctf extends BaseConfig
+class Quizy extends BaseConfig
 {
 	/**
-	 * The current version of Iuctf Platform
+	 * The current version of Quizy Platform
 	 */
-	const IUCTF_VERSION = null;
+	const QUIZY_VERSION = null;
 
 	/**
 	 * List of available locales.
